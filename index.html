@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" type="image/x-icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRdyWjaYZM36tw0kDvbtnnpDnecC-wx_hYW_g&usqp=CAU">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+        integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="wrapper">
+        <header>Currency Converter</header>
+        <form action="#">
+            <div class="amount">
+                <p>Enter Amount</p>
+                <input type="text" value="">
+            </div>
+            <div class="drop-list">
+                <div class="form">
+                    <p>From</p>
+                    <div class="select-box">
+                        <!-- <img src="https://countryflagsapi.com/png/USD" width="50px" alt="flag"> -->
+                        <select>
+                            <!-- <option value="">IN</option> -->
+                            <!-- <option value="USD">NPR</option>
+                            <option value="USD">IND</option>
+                            <option value="USD">PKR</option>
+                            <option value="USD">MAD</option> -->
+                        </select>
+                    </div>
+                </div>
+
+                <div class="icon"><i class="fas fa-exchange-alt"></i></div>
+                <div class="to">
+                    <p>To</p>
+                    <div class="select-box">
+                        <!-- <img src="https://countryflagsapi.com/png/us" width="50px" alt="flag"> -->
+                        <select>
+                            <!-- <option value="">IN</option> -->
+                            <!-- <option value="USD">NPR</option>
+                            <option value="USD">IND</option>
+                            <option value="USD">PKR</option>
+                            <option value="USD">MAD</option> -->
+                        </select>
+                    </div>
+                </div>
+            </div>
+            <div class="exchange-rate">#</div>
+            <button class="btn1">Get Exchange Rate</button>
+        </form>
+        <div class="copy">
+            &copy;Keval Rabadiya
+        </div>
+    </div>
+    <script src="./country-list.js"></script>
+    <script src="./script.js"></script>
+</body>
+
+</html>
